@@ -73,7 +73,7 @@ const handleScrollToTop = (event) => {
     // Check if the window is already at the top
     if (window.scrollY === 0) {
         // If at the top, navigate to /#home
-        window.location.href = '/#home';
+        window.location.href = '/';
     } else {
         // If not at the top, set scroll-behavior to auto for instant scrolling
         document.documentElement.style.scrollBehavior = 'auto';
@@ -119,7 +119,7 @@ const Header = () => {
         <header className="header">
             <div className="header-content">
                 <div className="name">
-                    <Link to="/#home" onClick={handleScrollToTop}>Jason Lee</Link>
+                    <Link to="/" onClick={handleScrollToTop}>Jason Lee</Link>
                 </div>
                 <nav className="nav">
                     {/* Scroll to "Work" section when clicked */}
