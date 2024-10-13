@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/product-design-portfolio/static/css/main.aba5e4cd.css",
+    "main.js": "/product-design-portfolio/static/js/main.98f92ce3.js",
+    "static/js/453.ed3810f9.chunk.js": "/product-design-portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/ABCDiatype-Medium-Trial.woff": "/product-design-portfolio/static/media/ABCDiatype-Medium-Trial.67f41a2d59c555783fd0.woff",
+    "static/media/ABCDiatype-Regular-Trial.woff": "/product-design-portfolio/static/media/ABCDiatype-Regular-Trial.ce6a44793025c7f4576b.woff",
+    "index.html": "/product-design-portfolio/index.html",
+    "main.aba5e4cd.css.map": "/product-design-portfolio/static/css/main.aba5e4cd.css.map",
+    "main.98f92ce3.js.map": "/product-design-portfolio/static/js/main.98f92ce3.js.map",
+    "453.ed3810f9.chunk.js.map": "/product-design-portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aba5e4cd.css",
+    "static/js/main.98f92ce3.js"
+  ]
+}
