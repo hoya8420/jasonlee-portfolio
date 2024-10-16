@@ -9,13 +9,14 @@ function About() {
             <main className="skinny">
                 <div class="about-container">
                     <div class="about-text">
-                        <h3>Hi, I’m Jason, a master’s student at Cornell University studying Information Science. I like to think of myself as a wanderer,
-                             full of curiosity by nature. Whether it's jumping around different majors (Economics → Architecture → Information Science), 
-                            hiking along unexplored routes, watching one too many video essays, or tinkering with design tools, 
-                            my approach to design is also the same. I believe in exploring the intersections of creativity and logic, 
-                            always seeking the unexpected.</h3>
+                        <h3>Hello! I’m Jason, I'm a master’s student at Cornell University studying Information Science. </h3>
+                            
+                            <h3>By nature, I am full of curiosity. Whether it's jumping around different majors (Economics → Architecture → Information Science),
+                            hiking along unexplored routes, or tinkering with design tools,
+                            my approach to design is also the same way. I enjoy exploring the intersections of creativity and logic,
+                            always seeking the unexpected. I’m here to learn, explore, and constantly look for the next challenge to take on or space to discover—in UX/UI and beyond.</h3>
                         <br />
-                        <h3>I’m here to learn, explore, and constantly look for the next challenge to take on or space to discover—in UX/UI and beyond.</h3>
+                        <h3>In my free time, I like stay active and curate playlists for my day to day. </h3>
                         <br />
                         <h3> Thanks for stopping by. If anything catches your eye, feel free to reach out and say hello. </h3>
                     </div>
