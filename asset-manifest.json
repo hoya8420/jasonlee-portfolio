@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/product-design-portfolio/static/css/main.a171a93d.css",
-    "main.js": "/product-design-portfolio/static/js/main.3b140685.js",
-    "static/js/453.ed3810f9.chunk.js": "/product-design-portfolio/static/js/453.ed3810f9.chunk.js",
-    "static/media/ABCDiatype-Medium-Trial.woff": "/product-design-portfolio/static/media/ABCDiatype-Medium-Trial.67f41a2d59c555783fd0.woff",
-    "static/media/ABCDiatype-Regular-Trial.woff": "/product-design-portfolio/static/media/ABCDiatype-Regular-Trial.ce6a44793025c7f4576b.woff",
-    "static/media/EaseSemiDisplayTRIAL-Semibold.ttf": "/product-design-portfolio/static/media/EaseSemiDisplayTRIAL-Semibold.a1174035cd23ad31f190.ttf",
-    "static/media/EaseSemiDisplayTRIAL-Bold.ttf": "/product-design-portfolio/static/media/EaseSemiDisplayTRIAL-Bold.253a56739368aec908c6.ttf",
-    "static/media/EaseStandardTRIAL-Medium.ttf": "/product-design-portfolio/static/media/EaseStandardTRIAL-Medium.eefbdfd80f89cd0ef3c4.ttf",
-    "static/media/EaseStandardTRIAL-Semibold.ttf": "/product-design-portfolio/static/media/EaseStandardTRIAL-Semibold.9003950a284410b55b60.ttf",
-    "static/media/EaseStandardTRIAL-Regular.ttf": "/product-design-portfolio/static/media/EaseStandardTRIAL-Regular.9e21293e428bf282d23c.ttf",
-    "static/media/EaseStandardTRIAL-Bold.ttf": "/product-design-portfolio/static/media/EaseStandardTRIAL-Bold.f978c624968a7aaee3de.ttf",
-    "static/media/EaseDisplayTRIAL-Bold.ttf": "/product-design-portfolio/static/media/EaseDisplayTRIAL-Bold.0413c0d514ce28a42fa4.ttf",
-    "static/media/Gerstner-ProgrammMedium.woff": "/product-design-portfolio/static/media/Gerstner-ProgrammMedium.2439c45b1fa5a1588ac5.woff",
-    "static/media/Gerstner-ProgrammBold.woff": "/product-design-portfolio/static/media/Gerstner-ProgrammBold.26a0ca4b150a335025d6.woff",
-    "static/media/Gerstner-ProgrammRegular.woff": "/product-design-portfolio/static/media/Gerstner-ProgrammRegular.b1d7a3b7d5787624608e.woff",
-    "index.html": "/product-design-portfolio/index.html",
-    "main.a171a93d.css.map": "/product-design-portfolio/static/css/main.a171a93d.css.map",
-    "main.3b140685.js.map": "/product-design-portfolio/static/js/main.3b140685.js.map",
-    "453.ed3810f9.chunk.js.map": "/product-design-portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/jasonlee-portfolio/static/css/main.14ce394c.css",
+    "main.js": "/jasonlee-portfolio/static/js/main.e80fa52d.js",
+    "static/js/453.ed3810f9.chunk.js": "/jasonlee-portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/ABCDiatype-Medium-Trial.woff": "/jasonlee-portfolio/static/media/ABCDiatype-Medium-Trial.67f41a2d59c555783fd0.woff",
+    "static/media/ABCDiatype-Regular-Trial.woff": "/jasonlee-portfolio/static/media/ABCDiatype-Regular-Trial.ce6a44793025c7f4576b.woff",
+    "static/media/EaseSemiDisplayTRIAL-Semibold.ttf": "/jasonlee-portfolio/static/media/EaseSemiDisplayTRIAL-Semibold.a1174035cd23ad31f190.ttf",
+    "static/media/EaseSemiDisplayTRIAL-Bold.ttf": "/jasonlee-portfolio/static/media/EaseSemiDisplayTRIAL-Bold.253a56739368aec908c6.ttf",
+    "static/media/EaseStandardTRIAL-Medium.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Medium.eefbdfd80f89cd0ef3c4.ttf",
+    "static/media/EaseStandardTRIAL-Semibold.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Semibold.9003950a284410b55b60.ttf",
+    "static/media/EaseStandardTRIAL-Regular.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Regular.9e21293e428bf282d23c.ttf",
+    "static/media/EaseStandardTRIAL-Bold.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Bold.f978c624968a7aaee3de.ttf",
+    "static/media/EaseDisplayTRIAL-Bold.ttf": "/jasonlee-portfolio/static/media/EaseDisplayTRIAL-Bold.0413c0d514ce28a42fa4.ttf",
+    "static/media/Gerstner-ProgrammMedium.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammMedium.2439c45b1fa5a1588ac5.woff",
+    "static/media/Gerstner-ProgrammBold.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammBold.26a0ca4b150a335025d6.woff",
+    "static/media/Gerstner-ProgrammRegular.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammRegular.b1d7a3b7d5787624608e.woff",
+    "index.html": "/jasonlee-portfolio/index.html",
+    "main.14ce394c.css.map": "/jasonlee-portfolio/static/css/main.14ce394c.css.map",
+    "main.e80fa52d.js.map": "/jasonlee-portfolio/static/js/main.e80fa52d.js.map",
+    "453.ed3810f9.chunk.js.map": "/jasonlee-portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a171a93d.css",
-    "static/js/main.3b140685.js"
+    "static/css/main.14ce394c.css",
+    "static/js/main.e80fa52d.js"
   ]
 }
