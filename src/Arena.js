@@ -270,16 +270,41 @@ function Arena() {
                     </div>
 
                     <p>
-                        I also experimented with Rive to create playful animations that not only give character to the app, but also act as guides on how to use the various new features.
+                        Lastly, I also experimented with Rive to create playful animations that not only give character to the app, but also act as guides on how to use the various new features.
                     </p>
 
                     <div className="arena-container arena-media-div2" id="three-screens">
                         <video className=" arena-media-id2" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/arena/history-animation.mp4" loading="lazy" playsInline autoPlay loop></video>
                         <video className=" arena-media-id2" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/arena/bookmark-animation.mp4" loading="lazy" playsInline autoPlay loop></video>
                         <video className=" arena-media-id2" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/arena/connect-animation.mp4" loading="lazy" playsInline autoPlay loop></video>
-
                     </div>
 
+                    <div className="content--main-arena">
+                        <p className="bold"><b>Takeaways + What I'd Do Differently</b></p>
+
+                        <div className="content--main--arena inbetween" >
+                            <p>Addressing more user needs and conducting more research<br />
+
+                                <ul>
+                                    <li>This project initially began more as a personal exploration to learn new tools and less as a traditional case study. </li>
+                                    <li>Given the opportunity, I would like to further ground my design decisions through more extensive user research, testing, and further iteration. </li></ul>
+
+                                Getting a better grasp of technical constrainsts <br />
+
+                                <ul>
+                                    <li>I encountered some unforeseen technical constraints during both the programming and design phases, which made development challenging at times. </li>
+                                    <li>While this was occasionally stressful, it provided opportunities to navigate obstacles and learn the importance of establishing clear project guidelines and constraints.</li></ul>
+
+                                Focusing on progress<br />
+
+                                <ul>
+                                    <li>Throughout the project, there were moments of frustration when, despite making something functional, it didn’t look as polished as I’d imagined.</li>
+                                    <li>As someone who has a hard time overlooking negligible details, these moments made the process strenuous, but they also provided an opportunity to prioritize progress over perfection and not get too hung up on minor details over major progresses.</li></ul>
+                            </p>
+                        </div>
+                    
+
+                    </div>
 
                 </div>
 
