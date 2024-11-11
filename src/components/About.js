@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="portfolio">
 
-            <main className="skinny">
+            <main className="skinny-about">
                 <div class="about-container">
                     <div class="about-text">
                         <h3>Hello! I’m Jason, I'm a master’s student at Cornell University studying Information Science with concentration in UI/UX.</h3>
@@ -27,7 +27,7 @@ function About() {
                 </div>
             </main>
 
-            <footer>
+            <footer className="about-footer">
                 <div>
                     ©2024 Jason Lee
                     <br />

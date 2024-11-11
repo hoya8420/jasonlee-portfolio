@@ -10,7 +10,7 @@ const scrollToSection = (targetId, duration = 1) => {
         const startPosition = window.scrollY;
 
         animate(startPosition, targetPosition, {
-            duration: 0.05,  // Scroll duration in seconds
+            duration, // Scroll duration in seconds
             onUpdate: (latest) => window.scrollTo(0, latest),
             ease: 'easeInOut',
         });
@@ -19,12 +19,9 @@ const scrollToSection = (targetId, duration = 1) => {
 
 // Handle scrolling to top or navigating back to home
 const handleScrollToTop = (navigate, location) => {
-    // Check if we're not already on the home page
     if (location.pathname !== '/') {
-        // Navigate to the home page
         navigate('/');
     } else {
-        // Scroll to the top of the page if we're already on the home page
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 };
@@ -33,6 +30,10 @@ const Header = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const [scrollTarget, setScrollTarget] = useState(null); // Track target section after navigation
+
+    // State for managing header visibility on scroll
+    const [showHeader, setShowHeader] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
 
     // Scroll to the desired section after navigation
     useEffect(() => {
@@ -47,33 +48,66 @@ const Header = () => {
         e.preventDefault();
 
         if (location.pathname !== '/') {
-            // If we're not on the home page, navigate to it first
-            setScrollTarget('work');
+            setScrollTarget('work'); // If not on home, set target for scroll after navigating
             navigate('/');
         } else {
-            // Directly scroll to the "work" section if on the home page
-            scrollToSection('work');
+            scrollToSection('work'); // Scroll to "Work" section directly if on home page
         }
     };
 
+    // Handle scroll behavior to hide/show header based on scroll direction
+    const handleScroll = () => {
+        if (window.scrollY > lastScrollY && window.scrollY > 20) {
+            setShowHeader(false); // Hide header when scrolling down
+        } else {
+            setShowHeader(true); // Show header when scrolling up
+        }
+        setLastScrollY(window.scrollY); // Update last scroll position
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollY]);
+
     return (
-        <header className="header">
+        <header className={`header ${showHeader ? 'visible' : 'hidden'}`}>
             <div className="header-content">
                 <div className="name">
                     {/* Link to navigate to the home page and scroll to top */}
-                    <Link to="/" onClick={() => handleScrollToTop(navigate, location)}>Jason Lee</Link>
+                    <Link to="/" onClick={() => handleScrollToTop(navigate, location)}>
+                        Jason Lee
+                    </Link>
                 </div>
                 <nav className="nav">
-                    {/* Scroll to "Work" section when clicked */}
+                    {/* Apply underline class conditionally based on the current location */}
                     <Link
-                        className="navbar-link bump-left mobile-gone"
+                        className={`navbar-link bump-left mobile-gone ${location.pathname === '/#work' ? 'active' : ''}`}
                         to="/#work"
                         onClick={handleScrollToWork}
                     >
                         Work
                     </Link>
-                    <Link className="navbar-link bump-left" to="/about">About</Link>
-                    <Link className="navbar-link" onClick={() => window.open("https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/resume-online.pdf", "_blank", "noopener,noreferrer")}>
+
+                    <Link
+                        className={`navbar-link bump-left ${location.pathname === '/about' ? 'active' : ''}`}
+                        to="/about"
+                    >
+                        About
+                    </Link>
+
+                    <Link
+                        className={`navbar-link ${location.pathname === '/resume' ? 'active' : ''}`}
+                        onClick={() =>
+                            window.open(
+                                "https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/resume-online.pdf",
+                                "_blank",
+                                "noopener,noreferrer"
+                            )
+                        }
+                    >
                         Resume
                     </Link>
                 </nav>

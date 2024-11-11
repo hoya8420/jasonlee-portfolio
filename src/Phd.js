@@ -7,37 +7,42 @@ import './App.css';
 function Phd() {
 
     return (
-        <main className="broad">
-            <div className="project-writeup">
-                <div className="image-container">
-                    <img id="image-header" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phd_hero.png">
+        <main >
+            <div className="project-writeup broad">
+                <div className="project-intro">
+                    <h1>Cornell University Phd Visit Day</h1>
+                    <h2>Streamlining Campus Visit Day Experience</h2>
+                </div>
+                <div className="image-container2">
+                    <img id="image-header" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/key+screen1phd1.png">
                     </img>
                 </div>
 
                 <div className="content--block">
                     <div className="content--main">
-                        <h1>Cornell University Phd Visit Day</h1>
-                        <h2>Streamlining Campus Visit Day Experience</h2>
+
+                        <div className="content--subdivide">
+                            <div className="content--subdivision--big">
+                                <p className="bold"><b>Team</b></p>
+                                <p>Independent Project</p>
+                            </div>
+                            <div id="intro" className="content--subdivision-medium">
+                                <p className="bold"><b>Skills</b></p>
+                                <p>User Research, Wireframing, Usability Testing, Prototyping, Interface Design</p>
+                            </div>
+                            <div className="content--subdivision-small">
+                                <p className="bold"><b>Duration</b></p>
+                                <p>2 months</p>
+                            </div>
+                        </div>
+                        <p className="bold"><b>Background</b></p>
                         <p className="project-writeup-description">
                             The objective of this project is to enhance the experience of prospective Cornell Computing and Information
                             Science PhD students who are attending the Cornell Bowers College of CIS PhD Visit Day.<br />
                             I sought to address and alleviate pain points that students previously experienced during the event focusing on
                             improving aspects such as communication, navigation, and engagement to ensure students felt more supported and better informed throughout their visit.
                         </p>
-                        <div className="content--subdivide">
-                            <div className="content--subdivision--big">
-                                <p>TEAM</p>
-                                <p>Independent Project</p>
-                            </div>
-                            <div id="intro" className="content--subdivision-medium">
-                                <p>SKILLS</p>
-                                <p>User Research, Wireframing, Usability Testing, Prototyping, Interface Design</p>
-                            </div>
-                            <div className="content--subdivision-small">
-                                <p>TIMELINE</p>
-                                <p>Mar - June 2023</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <div>
@@ -61,116 +66,117 @@ function Phd() {
                 </div>
             </div>
 
-            <div className="content--block" id="phdfindings">
-                <div className="content--section-title">FINDINGS</div>
-                <div className="content--main">
-                    <h2 className=" ">Students Are Eager But Lack Effective Tools</h2>
-                    <p className=" ">My main takeaway from the student interviews was that students were eager to make the most out of their campus visit—exploring research interests, forming social connections, and more—but their enthusiasm was dampened by the overwhelming and disorganized flow of information, which made it difficult to navigate and prioritize key activities. My findings can be summarized in three key points :</p>
-                    <div className="  content--point-section">
-                        <img className="content--point-icon" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/clipboard.png" loading="lazy">
-                        </img>
-                        <div className="content--point">
-                            <h3 className="content--point-title">Desire For Efficient Event Management</h3>
-                            <p>A common theme across interviews was frustration by the perceived lack of organization
-                                surrounding the itinerary, whether it was from an inundation of meeting links, trouble relocating logistical information
-                                in the users’ email inboxes, and more.</p>
+            <div className="mobile-gone broad">
+                <div className="content--block broad" id="phdfindings">
+                    <div className="content--section-title">FINDINGS</div>
+                    <div className="content--main">
+                        <h2 className=" ">Students Are Eager But Lack Effective Tools</h2>
+                        <p className=" ">My main takeaway from the student interviews was that students were eager to make the most out of their campus visit—exploring research interests, forming social connections, and more—but their enthusiasm was dampened by the overwhelming and disorganized flow of information, which made it difficult to navigate and prioritize key activities. My findings can be summarized in three key points :</p>
+                        <div className="  content--point-section">
+                            <img className="content--point-icon" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/clipboard.png" loading="lazy">
+                            </img>
+                            <div className="content--point">
+                                <h3 className="content--point-title">Desire For Efficient Event Management</h3>
+                                <p>A common theme across interviews was frustration by the perceived lack of organization
+                                    surrounding the itinerary, whether it was from an inundation of meeting links, trouble relocating logistical information
+                                    in the users’ email inboxes, and more.</p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div className="  content--point-section">
-                        <img className="content--point-icon" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/flask.png" loading="lazy">
-                        </img>
-                        <div className="content--point">
-                            <h3 className="content--point-title">Prioritizing Lab and Faculty Interactions</h3>
-                            <p>Prospective students wanted to focus on events and sessions that aligned with their research interests, rather than spreading themselves thin across all the
-                                lab introductions</p>
+                        <div className="  content--point-section">
+                            <img className="content--point-icon" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/flask.png" loading="lazy">
+                            </img>
+                            <div className="content--point">
+                                <h3 className="content--point-title">Prioritizing Lab and Faculty Interactions</h3>
+                                <p>Prospective students wanted to focus on events and sessions that aligned with their research interests, rather than spreading themselves thin across all the
+                                    lab introductions</p>
 
+                            </div>
                         </div>
-                    </div>
-                    <div className="  content--point-section">
-                        <img className="content--point-icon" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/communication.png" loading="lazy">
-                        </img>
-                        <div className="content--point">
-                            <h3 className="content--point-title">Social Connection Challnges</h3>
-                            <p> The general consensus from the series of interviews is not being able to connectwith peers as much as the students would have liked given the time crunch and different acitvities taking place simultaneously.</p>
+                        <div className="  content--point-section">
+                            <img className="content--point-icon" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/communication.png" loading="lazy">
+                            </img>
+                            <div className="content--point">
+                                <h3 className="content--point-title">Social Connection Challnges</h3>
+                                <p> The general consensus from the series of interviews is not being able to connectwith peers as much as the students would have liked given the time crunch and different acitvities taking place simultaneously.</p>
 
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div className="content--block" id="grey">
-                    <div className="content--section-title">IDEATION</div>
-
-                    <div className="content--main ">
-                        <h2>Design Goals</h2>
-                        <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phd-design-goals.png" loading="lazy"></img>
-                    </div>
-                </div>
-            </div>
-            <div className="content--block">
-
-                <div className="content--main ">
-                    <h2>Wireframing</h2>
-                    <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/Wireframephd3.png" loading="lazy"></img>
-                </div>
-            </div>
-
-            <div>
-                <div className="content--block" id="grey3">
-                    <div className="content--section-title">PROTOTYPING</div>
-
-                    <div className="content--main ">
-                        <h2>UX Solutions</h2>
-                        <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phd-design-solutions4.png" loading="lazy"></img>
                     </div>
                 </div>
 
                 <div>
-                    <div className="content--block" id="grey4">
-                        <div className="content--section-title">UX DESIGN</div>
+                    <div className="content--block" id="grey">
+                        <div className="content--section-title">IDEATION</div>
 
                         <div className="content--main ">
-                            <h2>Final Design</h2>
-                            <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phdscreen1.png" loading="lazy"></img>
-                        </div>
-                        <div className="content--main ">
-                            <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phdscreen2.png" loading="lazy"></img>
+                            <h2>Design Goals</h2>
+                            <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phd-design-goals.png" loading="lazy"></img>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
                 <div className="content--block">
-                    <div className="content--section-title">CONCLUSION</div>
-                    <div className="content--main">
-                        <h2 className="bump-2point5">Takeaways + What I'd Do Differently</h2>
 
-                        <div className="   content--point-section">
-                            <div className="content--point">
-                                <h3 className="content--point-title">🎯&nbsp;&nbsp;More Confidence In Decision Making</h3>
-                                <p>
-                                    Working indepdently without a team to validate my choices or offer alternative perspectives allowed me to step outside of my comfort zone and trust my decision-making abilities. While there were moments of doubt, I learned to be more decisive and self-assured.
-                                </p>
+                    <div className="content--main ">
+                        <h2>Wireframing</h2>
+                        <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/Wireframephd3.png" loading="lazy"></img>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="content--block" id="grey3">
+                        <div className="content--section-title">PROTOTYPING</div>
+
+                        <div className="content--main ">
+                            <h2>UX Solutions</h2>
+                            <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phd-design-solutions4.png" loading="lazy"></img>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className="content--block" id="grey3">
+                            <div className="content--section-title">UX DESIGN</div>
+
+                            <div className="content--main ">
+                                <h2>Final Design</h2>
+                                <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phdscreen1.png" loading="lazy"></img>
+                            </div>
+                            <div className="content--main ">
+                                <img className="design-goals" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/phd/phdscreen2.png" loading="lazy"></img>
                             </div>
                         </div>
-                        <div className="   content--point-section">
-                            <div className="content--point">
-                                <h3 className="content--point-title">💿&nbsp;&nbsp;Create Interactive Prototypes</h3>
-                                <p>
-                                I would move beyond static wireframes to create interactive prototypes, allowing users to engage with the design in a more realistic way and giving me a better understanding of how the design aligns with my expectations. This approach would also enable me to explore user interactions more deeply, uncovering insights about user preferences and behaviors that could inform further design iterations. </p>                </div>
-                        </div> <div className="   content--point-section">
-                            <div className="content--point">
-                                <h3 className="content--point-title">👨‍💻&nbsp;&nbsp;Incorporate User Testing To Reinforce Design Decisions </h3>
-                                <p>
-                                    In hindsight, if given the opportunity, I would have liked to incorporate user testing throughout the design process to validate assumptions and catch usability issues earlier. Relying more heavily on real user feedback would have allowed me to make more informed design decisions and have a better understanding  addressed their pain points more effectively.           </p>
+                    </div>
+                </div>
+                <div>
+                    <div className="content--block">
+                        <div className="content--section-title">CONCLUSION</div>
+                        <div className="content--main">
+                            <h2 className="bump-2point5">Takeaways + What I'd Do Differently</h2>
+
+                            <div className="   content--point-section">
+                                <div className="content--point">
+                                    <h3 className="content--point-title">🎯&nbsp;&nbsp;More Confidence In Decision Making</h3>
+                                    <p>
+                                        Working indepdently without a team to validate my choices or offer alternative perspectives allowed me to step outside of my comfort zone and trust my decision-making abilities. While there were moments of doubt, I learned to be more decisive and self-assured.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="   content--point-section">
+                                <div className="content--point">
+                                    <h3 className="content--point-title">💿&nbsp;&nbsp;Create Interactive Prototypes</h3>
+                                    <p>
+                                        I would move beyond static wireframes to create interactive prototypes, allowing users to engage with the design in a more realistic way and giving me a better understanding of how the design aligns with my expectations. This approach would also enable me to explore user interactions more deeply, uncovering insights about user preferences and behaviors that could inform further design iterations. </p>                </div>
+                            </div> <div className="   content--point-section">
+                                <div className="content--point">
+                                    <h3 className="content--point-title">👨‍💻&nbsp;&nbsp;Incorporate User Testing To Reinforce Design Decisions </h3>
+                                    <p>
+                                        In hindsight, if given the opportunity, I would have liked to incorporate user testing throughout the design process to validate assumptions and catch usability issues earlier. Relying more heavily on real user feedback would have allowed me to make more informed design decisions and have a better understanding  addressed their pain points more effectively.           </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <footer>
                 <div>

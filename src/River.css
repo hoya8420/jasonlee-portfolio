@@ -1,0 +1,52 @@
+
+.riverSketch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.vertical-text {
+    animation: float 6s ease-in-out infinite;
+    transform: translateY(0px);
+}
+
+.animated-char {
+    display: inline-block;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.animated-char:hover {
+    transform: scale(1.2);
+    color: #ff9800;
+}
+
+.inline-emoji {
+    width: 30px;
+    height: 30px;
+    animation: bounce 2s infinite;
+    display: inline-block;
+}
+
+/* Floating text effect */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Bounce effect for SVG */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

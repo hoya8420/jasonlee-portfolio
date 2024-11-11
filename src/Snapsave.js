@@ -24,42 +24,47 @@ function SnapSave() {
     const trophy = "https://hoya-portfolio.s3.us-east-2.amazonaws.com/snapsave/Wireframe+of+trophy+system+functionality.mov";
 
     return (
-        <main className="broad">
-            <div className="project-writeup">
-                <div className="image-container">
-                    <img id="image-header" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/snapsave/SS_cover.png">
+        <main>
+            <div className="project-writeup broad">
+                <div className="project-intro">
+                    <h1>SnapSave</h1>
+                    <h2>A Spending Tracker For College Students</h2>
+                </div>
+                <div className="image-container2">
+                    <img id="image-header" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/snapsave_home1.png">
                     </img>
                 </div>
 
                 <div className="content--block">
                     <div className="content--main">
-                        <h1>SnapSave</h1>
-                        <h2>A Spending Tracker For College Students</h2>
+                        <div className="content--subdivide">
+                            <div className="content--subdivision--big">
+                                <p className="bold"><b>Team</b></p>
+                                <p>Independent Project</p>
+                            </div>
+                            <div id="intro" className="content--subdivision-medium">
+                                <p className="bold"><b>Skills</b></p>
+                                <p>User Research, Wireframing, Usability Testing, Prototyping, Interface Design</p>
+                            </div>
+                            <div className="content--subdivision-small">
+                                <p className="bold"><b>Duration</b></p>
+                                <p>2 months</p>
+                            </div>
+                        </div>
+                        <p className="bold"><b>Background</b></p>
                         <p className="project-writeup-description">
-                            As college students, my peers and I are managing our finances for the very first time which..
+
+                            As college students, my peers and I are managing our finances for the very first time, which
                             comes with a learning curve. One of the biggest issues we face in this pursuit is an unawareness of our spending patterns.
                             To solve this, I designed a mobile app that makes sorting your past purchases simple and painless, which helps to remind students of their purchases,
                             and foster long-term insights about their spending patterns.
                         </p>
-                        <div className="content--subdivide">
-                            <div className="content--subdivision--big">
-                                <p>TEAM</p>
-                                <p>Independent Project</p>
-                            </div>
-                            <div id="intro" className="content--subdivision-medium">
-                                <p>SKILLS</p>
-                                <p>User Research, Wireframing, Usability Testing, Prototyping, Interface Design</p>
-                            </div>
-                            <div className="content--subdivision-small">
-                                <p>TIMELINE</p>
-                                <p>February - April 2024</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <div className="mobile-gone">
+            <div className="mobile-gone broad">
                 <div className="content--block">
                     <div className="fade-in content--main content--two-columns content--text-and-image appear">
                         <div className="content--half-text-2">
@@ -128,7 +133,7 @@ function SnapSave() {
                         </div>
                         <div className="content--half-2">
                             <div className="image-container">
-                                <img className="content--image-wrapper-full" src={SS_Solution3} loading="lazy"></img>
+                                <img className="content--image-wrapper-full content--iphone-video2" src={SS_Solution3} loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -205,7 +210,7 @@ function SnapSave() {
                             </img>
                             <div className="content--point">
                                 <h3 className="content--point-title">Fear of Transaction History</h3>
-                                <p>An overwhelming majority of students confessed that they<strong> don’t review their purchases,</strong>  or even know exactly how much they’ve spent in a given month, citing anxiety as a disuasive factor. Instead, they mostly use their overall balance to gauge whether they’re in a good or bad place financially.</p>
+                                <p className="snapsave-p">An overwhelming majority of students confessed that they<strong> don’t review their purchases,</strong>  or even know exactly how much they’ve spent in a given month, citing anxiety as a disuasive factor. Instead, they mostly use their overall balance to gauge whether they’re in a good or bad place financially.</p>
 
                             </div>
                         </div>
@@ -214,7 +219,7 @@ function SnapSave() {
                             </img>
                             <div className="content--point">
                                 <h3 className="content--point-title">Frictionless Payment Services</h3>
-                                <p>Students primarily made purchases via Apple Pay or tap-based payments, which they say diminishes the psychological imprint of each purchase, making it easier to <strong>spend impulsively.</strong></p>
+                                <p className="snapsave-p">Students primarily made purchases via Apple Pay or tap-based payments, which they say diminishes the psychological imprint of each purchase, making it easier to <strong>spend impulsively.</strong></p>
 
                             </div>
                         </div>
@@ -223,7 +228,7 @@ function SnapSave() {
                             </img>
                             <div className="content--point">
                                 <h3 className="content--point-title">Alternative Balances </h3>
-                                <p>Students possess multiple alternative balances, sources of money outside their main bank account (e.g. Venmo balance). Since these accounts don’t affect their primary balance, students see this as <strong>'free money'</strong> to spend without consequence. </p>
+                                <p className="snapsave-p">Students possess multiple alternative balances, sources of money outside their main bank account (e.g. Venmo balance). Since these accounts don’t affect their primary balance, students see this as <strong>'free money'</strong> to spend without consequence. </p>
 
                             </div>
                         </div>
@@ -246,9 +251,9 @@ function SnapSave() {
                     </div>
                 </div>
 
-                <div id="grey">
-                    <div className="content--block">
-                        <div className="content--section-title">
+
+                    <div id="grey3" className="content--block">
+                        <div className="content--section-title" id="design-goals">
                             DESIGN GOALS
                         </div>
                         <div className="content--main">
@@ -316,7 +321,7 @@ function SnapSave() {
 
                         </div>
                     </div>
-                </div>
+        
 
                 <div className="content--block">
                     <div className="content--section-title">TESTING + IMPROVEMENTS</div>
@@ -401,7 +406,7 @@ function SnapSave() {
                             <img className="content--image-wrapper-full" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/snapsave/finalProto.png" loading="lazy"></img>
                         </div>
                         <div className="figma-iframe">
-                        <iframe  className="iframe" src="https://embed.figma.com/proto/O8kmfEke4igt0frBbKcCzR/Snapsave?page-id=0%3A1&node-id=1-3228&node-type=canvas&viewport=1261%2C844%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3228&embed-host=share" allowfullscreen></iframe>
+                            <iframe className="iframe" src="https://embed.figma.com/proto/O8kmfEke4igt0frBbKcCzR/Snapsave?page-id=0%3A1&node-id=1-3228&node-type=canvas&viewport=1261%2C844%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3228&embed-host=share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div className="content--section-title bump-2point5">STYLE GUIDE</div>
@@ -457,7 +462,7 @@ function SnapSave() {
                     </div>
                 </div>
             </div> */}
-            <footer>
+             <footer>
                 <div>
                     ©2024 Jason Lee
                     <br />

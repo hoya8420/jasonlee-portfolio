@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
@@ -8,12 +8,26 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Snapsave from './Snapsave';
 import RiverComponent from './components/River';
+import Arena from './Arena';
 import Phd from './Phd';
 import ScrollToTop from './components/ScrollToTop';  // Import ScrollToTop component
-import './App.css'; 
+import './App.css';
+import { initializeFontScaling, cleanupFontScaling } from './fontScaling';
 
 function App() {
+
+  useEffect(() => {
+    // Initialize font scaling when the component mounts
+    initializeFontScaling();
+
+    // Cleanup on unmount
+    return () => {
+      cleanupFontScaling();
+    };
+  }, []);
+
   return (
+    
     <Router>
       <ScrollToTop />
       <div className="App">
@@ -31,14 +45,16 @@ function App() {
                   exit={{ opacity: 0 }}
                   transition={{ delay: 0.1, duration: 0.45, ease: 'easeInOut' }}
                 >
+
                   <Hero />
-                  <RiverComponent />
+                  {/* <RiverComponent /> */}
+
                   <Projects />
                   <Footer />
                 </motion.div>
               }
             />
-            
+
             {/* Redirect /home to / */}
             <Route path="/home" element={<Navigate to="/" />} />
 
@@ -57,6 +73,26 @@ function App() {
                 </motion.div>
               }
             />
+
+
+            {/* Arena Page */}
+            <Route
+              path="/arena"
+              element={
+                <motion.div
+                  key="arena"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ delay: 0.1, duration: 0.7, ease: 'easeInOut' }}
+                >
+                  <Arena />
+                </motion.div>
+              }
+            />
+
+
+
 
             {/* Snapsave Page */}
             <Route
