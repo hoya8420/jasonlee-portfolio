@@ -18,7 +18,7 @@ const Projects = () => {
             subtitle: '2024',
             description: 'Reimagining Are.na, a place to save content, connect ideas, and create collections over time.',
             skills: ["User Research", "Wireframing", "Prototyping", "Interaction Design","Branding"],
-            imageSrc: 'https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/arena_final_home.png',
+            imageSrc: 'https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/arena-1.2.png',
             link: '/arena',  // No link for this upcoming project
         },
         {
