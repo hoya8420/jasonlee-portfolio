@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jasonlee-portfolio/static/css/main.d4409f26.css",
-    "main.js": "/jasonlee-portfolio/static/js/main.b910a6ed.js",
+    "main.js": "/jasonlee-portfolio/static/js/main.a66ddb12.js",
     "static/js/453.ed3810f9.chunk.js": "/jasonlee-portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/ABCDiatype-Medium-Trial.woff": "/jasonlee-portfolio/static/media/ABCDiatype-Medium-Trial.67f41a2d59c555783fd0.woff",
     "static/media/ABCDiatype-Regular-Trial.woff": "/jasonlee-portfolio/static/media/ABCDiatype-Regular-Trial.ce6a44793025c7f4576b.woff",
@@ -17,11 +17,11 @@
     "static/media/Gerstner-ProgrammRegular.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammRegular.b1d7a3b7d5787624608e.woff",
     "index.html": "/jasonlee-portfolio/index.html",
     "main.d4409f26.css.map": "/jasonlee-portfolio/static/css/main.d4409f26.css.map",
-    "main.b910a6ed.js.map": "/jasonlee-portfolio/static/js/main.b910a6ed.js.map",
+    "main.a66ddb12.js.map": "/jasonlee-portfolio/static/js/main.a66ddb12.js.map",
     "453.ed3810f9.chunk.js.map": "/jasonlee-portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4409f26.css",
-    "static/js/main.b910a6ed.js"
+    "static/js/main.a66ddb12.js"
   ]
 }
