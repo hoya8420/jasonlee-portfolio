@@ -11,7 +11,7 @@ const Hero = () => {
                                 <div className="intro1">
                                     <div id="bump">Hello! I'm Jason.</div>
 
-                                    <div>I hate referring to myself in the third person, but I love many other things—I really enjoy discovering and shaping good ideas into great looking products.</div>
+                                    <div>I really enjoy discovering and shaping good ideas into great looking products.</div>
                                     {/* <div>I really enjoy helping others create things, shape things, and help others discover and further their things.</div> */}
                                     {/* <div>I really enjoy helping to discover and shape ideas into great looking products.</div> */}
 
