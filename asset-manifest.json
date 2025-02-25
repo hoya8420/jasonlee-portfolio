@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jasonlee-portfolio/static/css/main.d4409f26.css",
-    "main.js": "/jasonlee-portfolio/static/js/main.a66ddb12.js",
-    "static/js/453.ed3810f9.chunk.js": "/jasonlee-portfolio/static/js/453.ed3810f9.chunk.js",
-    "static/media/ABCDiatype-Medium-Trial.woff": "/jasonlee-portfolio/static/media/ABCDiatype-Medium-Trial.67f41a2d59c555783fd0.woff",
-    "static/media/ABCDiatype-Regular-Trial.woff": "/jasonlee-portfolio/static/media/ABCDiatype-Regular-Trial.ce6a44793025c7f4576b.woff",
-    "static/media/EaseSemiDisplayTRIAL-Semibold.ttf": "/jasonlee-portfolio/static/media/EaseSemiDisplayTRIAL-Semibold.a1174035cd23ad31f190.ttf",
-    "static/media/EaseSemiDisplayTRIAL-Bold.ttf": "/jasonlee-portfolio/static/media/EaseSemiDisplayTRIAL-Bold.253a56739368aec908c6.ttf",
-    "static/media/EaseStandardTRIAL-Medium.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Medium.eefbdfd80f89cd0ef3c4.ttf",
-    "static/media/EaseStandardTRIAL-Semibold.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Semibold.9003950a284410b55b60.ttf",
-    "static/media/EaseStandardTRIAL-Regular.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Regular.9e21293e428bf282d23c.ttf",
-    "static/media/EaseStandardTRIAL-Bold.ttf": "/jasonlee-portfolio/static/media/EaseStandardTRIAL-Bold.f978c624968a7aaee3de.ttf",
-    "static/media/EaseDisplayTRIAL-Bold.ttf": "/jasonlee-portfolio/static/media/EaseDisplayTRIAL-Bold.0413c0d514ce28a42fa4.ttf",
-    "static/media/Gerstner-ProgrammMedium.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammMedium.2439c45b1fa5a1588ac5.woff",
-    "static/media/Gerstner-ProgrammBold.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammBold.26a0ca4b150a335025d6.woff",
-    "static/media/Gerstner-ProgrammRegular.woff": "/jasonlee-portfolio/static/media/Gerstner-ProgrammRegular.b1d7a3b7d5787624608e.woff",
-    "index.html": "/jasonlee-portfolio/index.html",
-    "main.d4409f26.css.map": "/jasonlee-portfolio/static/css/main.d4409f26.css.map",
-    "main.a66ddb12.js.map": "/jasonlee-portfolio/static/js/main.a66ddb12.js.map",
-    "453.ed3810f9.chunk.js.map": "/jasonlee-portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.72f5e62b.css",
+    "main.js": "/static/js/main.fcc36bcc.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/ABCDiatype-Medium-Trial.woff": "/static/media/ABCDiatype-Medium-Trial.67f41a2d59c555783fd0.woff",
+    "static/media/ABCDiatype-Regular-Trial.woff": "/static/media/ABCDiatype-Regular-Trial.ce6a44793025c7f4576b.woff",
+    "static/media/EaseSemiDisplayTRIAL-Semibold.ttf": "/static/media/EaseSemiDisplayTRIAL-Semibold.a1174035cd23ad31f190.ttf",
+    "static/media/EaseSemiDisplayTRIAL-Bold.ttf": "/static/media/EaseSemiDisplayTRIAL-Bold.253a56739368aec908c6.ttf",
+    "static/media/EaseStandardTRIAL-Medium.ttf": "/static/media/EaseStandardTRIAL-Medium.eefbdfd80f89cd0ef3c4.ttf",
+    "static/media/EaseStandardTRIAL-Semibold.ttf": "/static/media/EaseStandardTRIAL-Semibold.9003950a284410b55b60.ttf",
+    "static/media/EaseStandardTRIAL-Regular.ttf": "/static/media/EaseStandardTRIAL-Regular.9e21293e428bf282d23c.ttf",
+    "static/media/EaseStandardTRIAL-Bold.ttf": "/static/media/EaseStandardTRIAL-Bold.f978c624968a7aaee3de.ttf",
+    "static/media/EaseDisplayTRIAL-Bold.ttf": "/static/media/EaseDisplayTRIAL-Bold.0413c0d514ce28a42fa4.ttf",
+    "static/media/Gerstner-ProgrammMedium.woff": "/static/media/Gerstner-ProgrammMedium.2439c45b1fa5a1588ac5.woff",
+    "static/media/Gerstner-ProgrammBold.woff": "/static/media/Gerstner-ProgrammBold.26a0ca4b150a335025d6.woff",
+    "static/media/Gerstner-ProgrammRegular.woff": "/static/media/Gerstner-ProgrammRegular.b1d7a3b7d5787624608e.woff",
+    "index.html": "/index.html",
+    "main.72f5e62b.css.map": "/static/css/main.72f5e62b.css.map",
+    "main.fcc36bcc.js.map": "/static/js/main.fcc36bcc.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4409f26.css",
-    "static/js/main.a66ddb12.js"
+    "static/css/main.72f5e62b.css",
+    "static/js/main.fcc36bcc.js"
   ]
 }
