@@ -102,7 +102,7 @@ const Header = () => {
                         className={`navbar-link ${location.pathname === '/resume' ? 'active' : ''}`}
                         onClick={() =>
                             window.open(
-                                "https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/resume-online.pdf",
+                                "https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/website_resume.pdf",
                                 "_blank",
                                 "noopener,noreferrer"
                             )
