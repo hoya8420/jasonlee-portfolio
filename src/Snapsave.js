@@ -31,7 +31,7 @@ function SnapSave() {
                     <h2>A Spending Tracker For College Students</h2>
                 </div>
                 <div className="image-container2">
-                    <img id="image-header" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/snapsave_home1.png">
+                    <img id="image-header" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/snapsave/snapsave_home_hero3%3A23.png">
                     </img>
                 </div>
 

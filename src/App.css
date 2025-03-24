@@ -360,7 +360,7 @@ section {
 }
 
 .about-text>h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .about-profile {
@@ -562,7 +562,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom:40px;
-  margin-top:5.5%;
+  margin-top:10%;
 }
 
 .content--subdivision-big {
@@ -1249,7 +1249,7 @@ img {
 .project-title {
   color: #242020;
   font-family: 'easeStandardMedium';
-  font-size: 1.45vw;
+  font-size: 1.35vw;
   font-weight: 500;
   padding-bottom: 0%;
   white-space: pre-wrap;
@@ -1438,7 +1438,7 @@ img {
 
 @media screen and (min-width: 1780px) {
   .project-title {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 
@@ -1459,7 +1459,7 @@ img {
 
   .header,
   .name {
-    font-size: 22px;
+    font-size: 21px;
   }
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import CharacterWrapper from "./CharacterWrapper"; // Adjust path if needed
 
 
 function About() {
@@ -9,23 +10,23 @@ function About() {
             <main className="skinny-about">
                 <div class="about-container">
                     <div class="about-text">
-                        <h3>Hello! I’m Jason, I'm a master’s student at Cornell University studying Information Science with concentration in UI/UX.</h3>
-                            <br />
-                            <h3>
-                            By nature, I am full of curiosity. Whether it's jumping around different majors (Economics → Architecture → Information Science),
-                            hiking along unexplored routes, or tinkering with design tools,
-                            my approach to design is also the same way. I enjoy exploring the intersections of creativity and logic,
-                            always seeking the unexpected. I’m here to learn, explore, and constantly look for the next challenge to take on or space to discover—in UX/UI and beyond.</h3>
+
+                        <h3><CharacterWrapper>Hello! I’m Jason, I'm a master’s student at Cornell University studying Information Science with concentration in UI/UX.     </CharacterWrapper></h3>
                         <br />
-                        <h3>In my free time, I like stay active and curate playlists for my day to day. </h3>
+                        <h3>
+                            <CharacterWrapper>By nature, I’m deeply curious—which has mostly been a positive trait (led me to change my major three times). It drives me to explore the hows and whys of the things around me.
+                            I find excitement in placing myself at the intersection of creativity and problem-solving, particularly in shaping digital experiences that positively influence how users interact with technology. Designing for diverse needs with a diverse is especially gratifying to me, which is likely influenced by my own diverse background and interests.</CharacterWrapper></h3>
                         <br />
-                        <h3> Thanks for stopping by. If anything catches your eye, feel free to reach out and say hello. </h3>
+                        <h3><CharacterWrapper>What I like to do in my free time also varies a lot, as you might have guessed, including, but not limited to, running, movies, and digital archiving, though not at the same time.</CharacterWrapper></h3>
+                        <br />
+                        <h3> <CharacterWrapper>Thanks for stopping by. If anything catches your eye, feel free to reach out and say hello. </CharacterWrapper></h3>
+
                     </div>
                     <div class="about-profile mobile-gone">
                         <img class="about-headshot" src="https://hoya-portfolio.s3.us-east-2.amazonaws.com/about/about-headshot5.jpg"></img>
                     </div>
                 </div>
-            </main>
+            </main >
 
             <footer className="about-footer">
                 <div>
@@ -45,7 +46,7 @@ function About() {
                     </a>
                 </div>
             </footer>
-        </div>
+        </div >
     );
 }
 

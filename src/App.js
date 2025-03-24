@@ -7,12 +7,13 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Snapsave from './Snapsave';
-import RiverComponent from './components/River';
 import Arena from './Arena';
 import Phd from './Phd';
 import ScrollToTop from './components/ScrollToTop';  // Import ScrollToTop component
 import './App.css';
+import "./CharacterWrapper.css";
 import { initializeFontScaling, cleanupFontScaling } from './fontScaling';
+
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     };
   }, []);
 
+  
   return (
     
     <Router>

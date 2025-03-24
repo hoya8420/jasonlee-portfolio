@@ -26,7 +26,7 @@ const Projects = () => {
             subtitle: '2024',
             description: 'Mobile app designed to transform everyday spending into smarter financial decisions for students.',
             skills: ["User Research", "Wireframing", "Prototyping", "Usability Testing", "Interactive Design"],
-            imageSrc: 'https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/snapsave1.png',
+            imageSrc: 'https://hoya-portfolio.s3.us-east-2.amazonaws.com/home/snapsave_home_cover.png',
             link: '/snapsave',  // Use Link for navigation without #
         },
         {

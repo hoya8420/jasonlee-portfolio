@@ -1,0 +1,19 @@
+span.blooms {
+    position: relative;
+    transition: left 700ms, top 700ms, scale 700ms, background 300ms;
+    background: transparent;
+    top: 0px;
+    left: 0px;
+    scale: 1;
+    z-index: 99;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
